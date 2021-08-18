@@ -1,0 +1,99 @@
+/*CSS TFOOT*/
+.tfoot {
+			text-align:center;
+			background-color:#ffcf27;
+		}
+#foot{
+	text-align:center;
+	background-color:#ffcf27;
+	color:Black;
+}
+.tfoot {
+		margin:0 auto;
+		width:100%;
+		display:flex;
+		list-style-type:none;
+		text-decoration:none;
+		border-radius:10px;
+		
+}
+div.text{
+	background:linear-gradient(pink,white);
+	width:100%;
+}
+.text
+{
+	color:#93F;
+	
+}
+a{
+	text-decoration:none;
+	}
+.banner{
+	background:linear-gradient(pink,white);
+	}
+.banner .img1{
+	width:30%;
+	}
+.banner .img2{
+	width:70%;
+	}
+/*CSS BODY*/
+body {
+  font-family: sans-serif;
+  color: #333;
+  padding-left:170px;
+  padding-right:170px;
+  background-image:url(images.png);
+}
+table.main_1 {
+			text-align:center;
+		}
+.summit {
+			text-align:right;
+			padding-right:5px;
+		}
+/*CSS MENU*/
+#color{
+	background-color:#FCC;
+	}
+#menu ul{
+	list-style-type:none;
+	}
+ul.logo-list{
+	list-style-image:url(convet.png)
+}
+ul.submenu {
+	display:none;
+}
+ul.MENU > li > a{
+	text-decoration:none;
+	display:block;
+}
+#menu ul li{
+	float:left;
+	padding:10px;
+	margin:0 auto;
+	} 
+#menu ul li a{
+		font-size: 20px;
+		text-decoration:none;
+		padding:20px;
+		color:white;
+	}
+#menu ul li a:hover{
+		background-color:white;
+		color:black;
+		
+		}
+	.clear{
+		clear:both;
+		}
+.banner1{
+	background-color:white;
+	}
+.zoom-anh{
+	width:100%;
+	}
+.danh-much-pet{
+	}	

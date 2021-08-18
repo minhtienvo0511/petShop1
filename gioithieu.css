@@ -1,0 +1,262 @@
+@charset "utf-8";
+/* CSS Menu */
+@media only screen and (max-width: 600px) {
+	body .tfoot {
+    width: 40%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+  .container{
+	  background-color:#FF9;
+	  font-size:18px !important;
+      }
+
+}
+@media only screen and (max-width:1024px) and (min-width: 641px) { 
+  body{
+	  background-color:#FCC;
+	  color:#0FF;
+  }
+}
+@keyframes doimau {
+	10%{color: red;}
+	20%{color:orrange;}
+	30%{color:yellow;}
+	40%{color:green;}
+	50%{color:blue;}
+	60%{color:brown;}
+	70%{color:purple;}
+	80%{color:#F0F;}
+	90%{color:white;}
+	100%{color:black;}
+}			
+.menu {
+	width: 100%;
+	height: 50px;
+	background-color: #F4C9CA;
+	
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: tahoma, arial, sans-serif,'lucida grande';
+}
+a{
+	text-decoration: none;
+	color: #000000;
+}
+p{
+	font-size: 18px;
+	
+}
+.container {
+	width: 1000px;
+	margin: auto;
+}
+a:hover, hover p{
+	color: #D11418;
+}
+.menu{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.menu ul li{
+	display: inline-block;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	
+}
+
+/* CSS Banner */
+section.banner{
+	animation: doinen ease-in-out 7s infinite;
+	height: 300px;
+	background-size: 100%;
+	background-repeat: none;
+}
+section.banner img {
+	visibility: hidden;
+	width: 100%;
+}
+
+@keyframes doinen {
+	0%{
+		background-image:url("image/banner1.jpg");
+	}
+	30%{
+		background-image: url("image/banner2.jpg");
+	}
+	70%{
+		background-image: url("image/banner3.png");
+	}
+}
+section.subject{
+	background-color: pink;
+	color: #050505;
+	padding: 20px;
+}
+section.subject h1{
+	font-size: 3vw;
+	text-align: center;
+	animation:doimau 2s infinite;
+}
+
+/* CSS Introduction */ 
+section.introduction{
+	background-color: aliceblue;
+	text-align: center;
+	padding: 15px 10%;
+	
+}
+section.introduction2{
+	background-color: aliceblue;
+}
+section.introduction2 > h1{
+	background-color: aliceblue;
+	animation:doimau 2s infinite;
+}
+section.introduction3{
+	background-color: aliceblue;
+}
+section.introduction3 > h1{
+	background-color: aliceblue;
+	animation:doimau 2s infinite;
+	
+}
+section.introduction4 > h1{
+	background-color: aliceblue;
+	animation:doimau 2s infinite;
+	
+}
+h1{
+	font-size: 3vw;
+}
+h1.underline::after{
+	content: " ";
+	height: 5px;
+	width: 5%;
+	background-color: darkgray;
+	display: block;
+	margin: 10px auto;
+}
+section.introduction img {
+	height: 200px;
+	width:40%;
+	margin-top: 10px;
+}
+section.introduction marquee{
+	color:#0C0;
+}
+section.introduction p {
+	margin-top: 20px;
+}
+
+div.items{
+	display: flex;
+	text-align: center;
+}
+div.item{
+	width: 25%;
+	padding: 2%;
+}
+
+div.item img{
+	max-width: 100%;
+}
+div.item >div{
+	background-color: #B3DAF0;
+	padding: 20px;
+}
+div.item p,h4{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+div.items img:hover{
+   filter: saturate(250%) drop-shadow(6px 6px 7px black);
+   overflow:hidden;
+}
+div.buy img{
+	float: left;
+}
+div.buy{
+	overflow: auto;
+}
+
+section.introduction4 img {
+	height: 400px;
+	width:100%;
+	margin-top: 10px;
+}
+/*lk bên ngoài*/
+.lienketbenngoai {
+    position: fixed;
+    bottom: 317px;
+    right: 115px;
+    z-index:3;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius:100%;
+	font-size:50px;
+	color:black;
+}
+
+.lienketbenngoai > li > a{
+	color:#333;
+}
+.lienketbenngoai > li > a{
+	margin:-43px;
+}
+.lienketbenngoai > .xanh > a:hover{
+	color: blue;
+}
+.lienketbenngoai > .red > a:hover{
+	color: red;
+}
+.gototop {
+
+    z-index:3;
+    position: fixed;
+    bottom: 35px;
+    right: 43px;
+    border: none;
+    outline: none;
+    background-color:white;
+    cursor: pointer;
+    padding: 12.5px;
+    border-radius:100%;
+	font-size:20px;
+	color:black;
+}
+.gototop:hover {
+  background-color:#ffcf22;
+}
+/*foot*/
+.tfoot {
+		margin:0 auto;
+		width:100%;
+		display:flex;
+		list-style-type:none;
+		text-decoration:none;
+		border-radius:10px;
+		
+}
+a {
+	text-decoration:none;
+}
+div.tfoot > p > b {
+	text-transform:uppercase;
+}
+.text
+{
+	text-align:center;
+	color:#93F;
+	position:absolute;
+	
+}
+
+div.text{
+	background:linear-gradient(pink,white);
+	width:80%;
+}
